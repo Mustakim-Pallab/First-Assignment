@@ -1,9 +1,41 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Bona Nova', serif;
+    font-size:larger;
+    margin: 0;
+    
+}
+h1{
+    font-size:48px;
+    margin-top: 170px;
+    color:rgb(77, 77, 78);
+    font-family:'Otomanopee One', sans-serif;
+}
+h1 span{
+    color:rgb(76, 163, 115);
+}
+
+button{
+    background-image: linear-gradient(orange,orangered);
+    padding: 15px 40px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px grey;
+    margin-top: 50px;
+    
+}
+button:hover{
+    background-image: linear-gradient(orangered,orange);
+    box-shadow: 2px 2px 20px tomato;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:'Bona Nova', serif;
+    font-size:25px;
     
 }
 
 .flex_display{
+    margin:50px;
     display:flex;
 
 }
@@ -26,15 +58,91 @@ body{
     background-size: contain;
     
 }
+
+
+
+#background01 h2{
+    margin-top: 150px;
+    padding-left: 90px;
+    color:gray;
+}
+    
+
+
+#background01 p{
+    padding: 90px;
+    padding-top: 0;
+    
+}
+
+#background01 button{
+    margin-top: -50px;
+    margin-left:85px;
+}
+#our_recipies{
+    text-align: center;
+    margin-top: 80px;
+    color: gray;
+
+}
+
+#our_recipies h2{
+    font-size:50px;
+}
+
+
 .image_sizing{
-    width: 30%;
-    border: 1px solid;
-    margin: 10px;
-    padding:10px;
+    
+    
+    margin: 2%;
+    padding:1.5%;
 }
 .image_sizing img{
 
-    width: 350px;
-    height: 300px;
+    width: 100%;
+    height: 50%;
+    
 
+}
+.margin{
+    margin-left:60px;
+    margin-right: 60px;
+}
+.border{
+    
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px grey;
+}
+#box_sizing{
+
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top:75px;
+    
+}
+
+.text_align_center{
+
+    text-align:center;
+}
+
+.in_the_box{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-bottom:10px;
+    
+
+}
+footer{
+    background-color: rgb(5, 10, 14);
+    text-align:center;
+    height: 200px;
+    margin-top: 100px;
+    padding: 20px;
+    color: grey;
+}
+span{
+    color:rgb(185, 56, 8);
 }
