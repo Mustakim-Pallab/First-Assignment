@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.flex_display{
+    display:flex;
+
+}
+
+.half_portion{
+    width: 50%;
+}
+
+#image_sizing01{
+    width:49%;
+    height:88.5%;
+    margin-left: 250px;
+    margin-top:50px;
+}
+
+#background01{
+    background-image: url(7.png);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.image_sizing{
+    width: 30%;
+    border: 1px solid;
+    margin: 10px;
+    padding:10px;
+}
+.image_sizing img{
+
+    width: 350px;
+    height: 300px;
+
+}
